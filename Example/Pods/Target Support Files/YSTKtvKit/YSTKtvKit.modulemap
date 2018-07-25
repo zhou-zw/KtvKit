@@ -1,0 +1,6 @@
+framework module YSTKtvKit {
+  umbrella header "YSTKtvKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

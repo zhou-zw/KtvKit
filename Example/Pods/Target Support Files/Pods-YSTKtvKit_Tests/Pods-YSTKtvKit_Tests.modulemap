@@ -1,0 +1,6 @@
+framework module Pods_YSTKtvKit_Tests {
+  umbrella header "Pods-YSTKtvKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
