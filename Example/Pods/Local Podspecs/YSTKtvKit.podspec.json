@@ -1,0 +1,45 @@
+{
+  "name": "YSTKtvKit",
+  "version": "0.1.0",
+  "summary": "A short description of YSTKtvKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "http://221.131.123.204:8181/ios-mobile/modules/YSTKtvKit.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kuqiqi": "zhouzhenwei@ysten.com"
+  },
+  "source": {
+    "git": "http://221.131.123.204:8181/ios-mobile/modules/YSTKtvKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "prefix_header_file": "YSTKtvKit/Classes/Private/Common/YSTKtv.pch",
+  "exclude_files": "YSTKtvKit/Classes/Private/AudioUnit/*.m",
+  "source_files": "YSTKtvKit/Classes/**/*",
+  "public_header_files": "YSTKtvKit/Classes/Public/*.h",
+  "resource_bundles": {
+    "YSTKtvKit": [
+      "YSTKtvKit/Assets/*.{png,xib,mp4,mp3}"
+    ]
+  },
+  "dependencies": {
+    "MGJRouter": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "no-arc",
+      "requires_arc": false,
+      "source_files": "YSTKtvKit/Classes/Private/AudioUnit/*.m"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'YSTKtvKit_Example' do
+  pod 'YSTKtvKit', :path => '../'
+#  pod 'YSTPlayer', :git => "http://221.131.123.204:8181/ios-mobile/modules/YSTPlayer.git", :branch => 'master'
+#  pod 'YSTLanSDK', :git => "http://221.131.123.204:8181/ios-mobile/modules/YSTLanSDK.git", :branch => 'master'
+  target 'YSTKtvKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

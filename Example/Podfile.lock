@@ -1,0 +1,22 @@
+PODS:
+  - MGJRouter (0.10.0)
+  - YSTKtvKit (0.1.0):
+    - MGJRouter
+    - YSTKtvKit/no-arc (= 0.1.0)
+  - YSTKtvKit/no-arc (0.1.0):
+    - MGJRouter
+
+DEPENDENCIES:
+  - YSTKtvKit (from `../`)
+
+EXTERNAL SOURCES:
+  YSTKtvKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MGJRouter: 15d94541eb2cc81eff7d577337288feb7ae9575f
+  YSTKtvKit: 010b078f0f6ae8ecd86df38bc106705ccf2aa96c
+
+PODFILE CHECKSUM: 42c8d3a1da7548cba99fb130ff91948db8b79c50
+
+COCOAPODS: 1.3.1
