@@ -1,0 +1,1245 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03D34FC85AE1FF76658E76203B26E5FD /* AACEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C6F799D5615B76D0670B8626AF9EB3 /* AACEncoder.m */; };
+		08968084CC6BDB4318E70D6DD5E432AA /* YSTKtv.pch in Sources */ = {isa = PBXBuildFile; fileRef = B9B7FA5EE2E96548153CFCA04F3F0F0F /* YSTKtv.pch */; };
+		0BA0319DB7D7339E4CF5EF9081B48C2D /* MGJRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A947A914D502816907C15ABB4E3AD4E4 /* MGJRouter-dummy.m */; };
+		0DE78AC2930D8C80766E1A320CA24E3C /* TalkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD2FB37BF70090343FA867457AC101B /* TalkManager.m */; };
+		1407576D303E40318DABDA70AD91075B /* Pods-YSTKtvKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F919F28F1A1120152700CE01DD8162A /* Pods-YSTKtvKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		172B022EB29EBF4B6A650D8722069493 /* MyRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537BA7F5F480196F2BD3A685BEF87492 /* MyRecordViewController.m */; };
+		1A72DF914BDB02E85214055E23C632D3 /* BBAudioConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 45083A712681E25E4B9AB47DD842C3E2 /* BBAudioConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1DC0F56838C893091977E94D2BBAC87B /* TalkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBAE59D8455E21717E1B5B3352DEB97 /* TalkManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1E096F43D5CC8F19E3D7E1311BAB3439 /* Pods-YSTKtvKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1F150A77CEB96C3785229A46F20F72 /* Pods-YSTKtvKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		258F9A6A6D65A1ABE5CB27E5468D952E /* YSTAudioUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ECDFD779785C8D3B34EA892A1BFE31 /* YSTAudioUnit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		32F4BD5E455434088E69423B257582AF /* BBAudioHardEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = D54BA1C59D341E54E0DD4E540A5BBD02 /* BBAudioHardEncoder.m */; };
+		3C6417B1C5A1B63ABF9DBEC0DCDBA253 /* BBAudioConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFAC2419681C5801FC7ECE0516657EF /* BBAudioConfig.m */; };
+		40B212CC06F2C61011ED78CB6F0B6D6E /* SingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E27A78F6A017B1AD11C4C0153FAE040 /* SingTool.m */; };
+		490FE7E9AD8D7569E3ED46E43F9687F5 /* YSTAudioUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9DF5B80DD02EFC7DCB5724B37221F0 /* YSTAudioUnit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		53D7F031E3270EC8C3AE80659B734CFF /* YSTKtvDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F9A686B1A4913C6A62C505A284E186 /* YSTKtvDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		59AD4D7779FEEF31B2BA8B3A06C2BDDF /* TMAVConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC3AD6B10954222164F8D291E82E9CC /* TMAVConfig.m */; };
+		5AEAFB3F142CD78D2E07812FD73256C8 /* MGJRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E815EE460C4A8B7A875A52A310B6FD12 /* MGJRouter.framework */; };
+		5CB4C430E6ACE288F235FF93F39C3B60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014FD3817B4CD2A968750944053890D8 /* Foundation.framework */; };
+		5E39CD14E7563FF88E68EFDB08FEB011 /* UIWindow+PazLabs.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1C5E7EB6E11736662055CA22187903 /* UIWindow+PazLabs.m */; };
+		5E83409436D5A9ABE193F87CF080218F /* MyRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 523C0EB98D6C503063274C75B9DF1D7D /* MyRecord.m */; };
+		64C40263DD107605F6216426E9F9F462 /* YSTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB156A8E371D4305775618C1EC3D9625 /* YSTViewController.xib */; };
+		65351A34158FA86527024F6384971680 /* AVMediaUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD6227917307442BEAFA3F07A46BD16 /* AVMediaUtil.m */; };
+		66E75DAD54D5A560F0AE635583D3449D /* YSTKtvViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101DE3C08FB3CC5B98B9B72107148442 /* YSTKtvViewController.m */; };
+		72EECA87FDC8704FCD8D58C8D35618BA /* MGJRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3969C9B4903F87364829BB1F50713B1F /* MGJRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		751F0AD125EEAB3B6EA43637AE37AF3D /* TMAudioDataQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DB643951A6CCFDB7DD4A576AE25ED86D /* TMAudioDataQueue.m */; };
+		79790BAE94FB33BACF999EC7A8660ECC /* YSTKtvKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 247FDA2584FD550CB9D146D59C83AE71 /* YSTKtvKit.bundle */; };
+		8BA99C1E480D06532235F114FFC14119 /* MyRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = ED015BFE2111DD69C319AE06224597A2 /* MyRecord.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8D904884D690B16012E78CFE35A63E7E /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 26641E0A1922975091D2B3BF4F7EBD1B /* MGJRouter.m */; };
+		8F2BC4EBBA6E276E13ECBA35B29EF22E /* TMAudioPCMPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A04ECF139B7D3374D5B0D83B555BF680 /* TMAudioPCMPlayer.m */; };
+		903D1DF5217254F8C52C90679BA2C0B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014FD3817B4CD2A968750944053890D8 /* Foundation.framework */; };
+		91901838712F5E2A88598AA67E92B112 /* YSTKtvKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCC7B56E7A7F106F3844ED528C2F5A5 /* YSTKtvKit-dummy.m */; };
+		93F06525A304A39B3036BE6AE87C0B44 /* Pods-YSTKtvKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 582ACB0FDCAC5FEADD9C6A228F2000E9 /* Pods-YSTKtvKit_Tests-dummy.m */; };
+		94C71A4FA6C940ACB1EFABB6962139F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014FD3817B4CD2A968750944053890D8 /* Foundation.framework */; };
+		9AB16DFC64C9D41DDB7C7B6F780FDEB7 /* BBAudioHardEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = F34833DD4C5B1F1CBD229A9803F93779 /* BBAudioHardEncoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A019CAF44C4B381280C5D21EE8DA18C3 /* MGJRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AD52F0C96F0CB9A51A315BE6E9DEF0 /* MGJRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A106714FF009EA9A5A1ED37B5345105F /* SingTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 51160F06FEC7A921CF9C95BDA2B5046E /* SingTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A735621EFCE45BD28E85C02359EAA97D /* TMAudioPCMPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 671D80C7DC3E4BA3D2B7C3F6286057AF /* TMAudioPCMPlayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB4B04AE820B4C19EEAB6CD34456553B /* TMAudioDataQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EAE5DF3693D402D294A4097EBE47D18 /* TMAudioDataQueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B6786B65E7BD16249AFBB688251294FB /* Pods-YSTKtvKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DE805B148A660438A5BDAEB4F703EB /* Pods-YSTKtvKit_Example-dummy.m */; };
+		BC3A67DFD69644869C0F6A0C477AA3F9 /* laonanhai.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 125E5F51B53954899A6F2A1433A54EBC /* laonanhai.mp4 */; };
+		BC6DC74B49B5F2035A98BAFA76A4E5FC /* UIWindow+PazLabs.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ADB5976EE3BC57655E3DA9861AEA6E5 /* UIWindow+PazLabs.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BEFDF282D240899791F9EEACEAC136C5 /* AACEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A067D97990AA008B94D8B7941AE088D /* AACEncoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0D0F5E3CFFA987AEA5395C9114F81D8 /* YSTKtvKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B5F9E684EB67AD3242C9D5709E5F89 /* YSTKtvKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C735336306E55087DBC8711B50DAA086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014FD3817B4CD2A968750944053890D8 /* Foundation.framework */; };
+		CCBB1CF550BA0BB3E8C34BD5E51FA103 /* TMAVConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A73307E99EE4A937B0086792E484E731 /* TMAVConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D15B458E9B75234F91222D327E64DED3 /* YSTKtvRouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 473CB0EBD320023CC8C08BB6F05C3912 /* YSTKtvRouterManager.m */; };
+		DBAF32574124AC5B456B2D47A2AEDBD6 /* YSTKtvViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B0A4876EFAF05B95714FB4C33E0F4A9C /* YSTKtvViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8D7E53DC4F39BA40FB61390198EEDF9 /* YSTKtvRouterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E571AD329C3B53EF79553FFC5391DC41 /* YSTKtvRouterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCD6EC0147BAB324230357F903E4D0D9 /* MyRecordViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C081BB17518A9840C06DFB9F4EAC17FE /* MyRecordViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE14DC9DDD25B51AE88B91FAC44A7EEE /* AVMediaUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4320D477B78CD1736935534EB61C718E /* AVMediaUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B6E936702D9E60ED9725F52523C4E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A578B1461229AA6ED3A10AF5DBC2F23;
+			remoteInfo = MGJRouter;
+		};
+		1F355D01A71BBF1A252D3AD586AB47A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A578B1461229AA6ED3A10AF5DBC2F23;
+			remoteInfo = MGJRouter;
+		};
+		499E04B386B790E219581D4023EDC190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEED062B0309456349BEF3AF9434A46E;
+			remoteInfo = YSTKtvKit;
+		};
+		CBD0365A75764FFD81D47DB2F31BC8B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52C678597235B4E7DD2F2E1379E2CEA5;
+			remoteInfo = "YSTKtvKit-YSTKtvKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014FD3817B4CD2A968750944053890D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0AEC9AF816D02B997573A89453B66960 /* Pods-YSTKtvKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSTKtvKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		101DE3C08FB3CC5B98B9B72107148442 /* YSTKtvViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YSTKtvViewController.m; sourceTree = "<group>"; };
+		125E5F51B53954899A6F2A1433A54EBC /* laonanhai.mp4 */ = {isa = PBXFileReference; includeInIndex = 1; name = laonanhai.mp4; path = YSTKtvKit/Assets/laonanhai.mp4; sourceTree = "<group>"; };
+		1A067D97990AA008B94D8B7941AE088D /* AACEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AACEncoder.h; sourceTree = "<group>"; };
+		24693DD7B10B40C86375F43B5502A279 /* Pods-YSTKtvKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YSTKtvKit_Tests.modulemap"; sourceTree = "<group>"; };
+		247FDA2584FD550CB9D146D59C83AE71 /* YSTKtvKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = YSTKtvKit.bundle; path = YSTKtvKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		26641E0A1922975091D2B3BF4F7EBD1B /* MGJRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGJRouter.m; path = MGJRouter/MGJRouter.m; sourceTree = "<group>"; };
+		2C9DF5B80DD02EFC7DCB5724B37221F0 /* YSTAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSTAudioUnit.h; sourceTree = "<group>"; };
+		2DFAC2419681C5801FC7ECE0516657EF /* BBAudioConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBAudioConfig.m; sourceTree = "<group>"; };
+		306D74AD967083E9AC094DD6D9D588E4 /* YSTKtvKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSTKtvKit-prefix.pch"; sourceTree = "<group>"; };
+		3969C9B4903F87364829BB1F50713B1F /* MGJRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGJRouter-umbrella.h"; sourceTree = "<group>"; };
+		3EBAE59D8455E21717E1B5B3352DEB97 /* TalkManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TalkManager.h; sourceTree = "<group>"; };
+		4320D477B78CD1736935534EB61C718E /* AVMediaUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVMediaUtil.h; sourceTree = "<group>"; };
+		45083A712681E25E4B9AB47DD842C3E2 /* BBAudioConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBAudioConfig.h; sourceTree = "<group>"; };
+		473CB0EBD320023CC8C08BB6F05C3912 /* YSTKtvRouterManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YSTKtvRouterManager.m; sourceTree = "<group>"; };
+		48269E60F9C94949F60D5A335B810083 /* YSTKtvKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YSTKtvKit.modulemap; sourceTree = "<group>"; };
+		4ADB5976EE3BC57655E3DA9861AEA6E5 /* UIWindow+PazLabs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWindow+PazLabs.h"; sourceTree = "<group>"; };
+		4D5F9C9D76948A36B9F9E95DFBDE48B0 /* Pods-YSTKtvKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSTKtvKit_Example-resources.sh"; sourceTree = "<group>"; };
+		51160F06FEC7A921CF9C95BDA2B5046E /* SingTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SingTool.h; sourceTree = "<group>"; };
+		523C0EB98D6C503063274C75B9DF1D7D /* MyRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MyRecord.m; sourceTree = "<group>"; };
+		52B6C666751EC7E591D415D6D006A94D /* MGJRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGJRouter-prefix.pch"; sourceTree = "<group>"; };
+		52D24EF0486BAA8C1D3FDB49DFACB7BC /* Pods-YSTKtvKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YSTKtvKit_Example.modulemap"; sourceTree = "<group>"; };
+		537BA7F5F480196F2BD3A685BEF87492 /* MyRecordViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MyRecordViewController.m; sourceTree = "<group>"; };
+		57B5F9E684EB67AD3242C9D5709E5F89 /* YSTKtvKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YSTKtvKit-umbrella.h"; sourceTree = "<group>"; };
+		582ACB0FDCAC5FEADD9C6A228F2000E9 /* Pods-YSTKtvKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YSTKtvKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		597B13C42FA6C3E6254F5BB7D230E8A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		671D80C7DC3E4BA3D2B7C3F6286057AF /* TMAudioPCMPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TMAudioPCMPlayer.h; sourceTree = "<group>"; };
+		6AD2FB37BF70090343FA867457AC101B /* TalkManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TalkManager.m; sourceTree = "<group>"; };
+		6E27A78F6A017B1AD11C4C0153FAE040 /* SingTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SingTool.m; sourceTree = "<group>"; };
+		6E8B5AEA0099AE91AD338429E7A7CA95 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70D027F2751918D2EFAEFABA74F3F2CA /* Pods-YSTKtvKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSTKtvKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		722D059508B9E74443C3BBEE2C3EE1F9 /* Pods_YSTKtvKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YSTKtvKit_Tests.framework; path = "Pods-YSTKtvKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C3344B096CCBBE6102E5C1FFAD3900 /* YSTKtvKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YSTKtvKit.xcconfig; sourceTree = "<group>"; };
+		77154A1D79F9804215DA08CA22B80BB1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81ECDFD779785C8D3B34EA892A1BFE31 /* YSTAudioUnit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YSTAudioUnit.m; path = YSTKtvKit/Classes/Private/AudioUnit/YSTAudioUnit.m; sourceTree = "<group>"; };
+		8287DF644D5157D0E8397119176A8D33 /* MGJRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MGJRouter.modulemap; sourceTree = "<group>"; };
+		82DB24EB9BEE94BE87668D800A14BC9A /* Pods-YSTKtvKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YSTKtvKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83B8B99DA4A9E4F07561404B7D96D99F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BAE0C916759E8845ADB699D919F2745 /* Pods-YSTKtvKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSTKtvKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8EA8EBBA9C71B0D17E9E1B552C88BAF0 /* Pods-YSTKtvKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSTKtvKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8F919F28F1A1120152700CE01DD8162A /* Pods-YSTKtvKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YSTKtvKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93BC26CEADADE4AA5F9549E44F81B67D /* Pods-YSTKtvKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YSTKtvKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9AB0B51755B043024491A542A50F9BC5 /* Pods-YSTKtvKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSTKtvKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9EAE5DF3693D402D294A4097EBE47D18 /* TMAudioDataQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TMAudioDataQueue.h; sourceTree = "<group>"; };
+		A04ECF139B7D3374D5B0D83B555BF680 /* TMAudioPCMPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TMAudioPCMPlayer.m; sourceTree = "<group>"; };
+		A73307E99EE4A937B0086792E484E731 /* TMAVConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TMAVConfig.h; sourceTree = "<group>"; };
+		A947A914D502816907C15ABB4E3AD4E4 /* MGJRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGJRouter-dummy.m"; sourceTree = "<group>"; };
+		A9EA6144519D9AD3A62FE866CB06684B /* MGJRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGJRouter.xcconfig; sourceTree = "<group>"; };
+		AB79E09C76704F1884C701224FE8558D /* Pods_YSTKtvKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YSTKtvKit_Example.framework; path = "Pods-YSTKtvKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7BAD6B49CF466228562E48CE4C0CE6 /* Pods-YSTKtvKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSTKtvKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		ADD6227917307442BEAFA3F07A46BD16 /* AVMediaUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AVMediaUtil.m; sourceTree = "<group>"; };
+		B0A4876EFAF05B95714FB4C33E0F4A9C /* YSTKtvViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSTKtvViewController.h; sourceTree = "<group>"; };
+		B7C6F799D5615B76D0670B8626AF9EB3 /* AACEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AACEncoder.m; sourceTree = "<group>"; };
+		B9B7FA5EE2E96548153CFCA04F3F0F0F /* YSTKtv.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSTKtv.pch; sourceTree = "<group>"; };
+		BE1C5E7EB6E11736662055CA22187903 /* UIWindow+PazLabs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+PazLabs.m"; sourceTree = "<group>"; };
+		BFCC7B56E7A7F106F3844ED528C2F5A5 /* YSTKtvKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YSTKtvKit-dummy.m"; sourceTree = "<group>"; };
+		C081BB17518A9840C06DFB9F4EAC17FE /* MyRecordViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MyRecordViewController.h; sourceTree = "<group>"; };
+		C18B0C82316147B8823DDCA5DEFE7060 /* Pods-YSTKtvKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YSTKtvKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7AD52F0C96F0CB9A51A315BE6E9DEF0 /* MGJRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGJRouter.h; path = MGJRouter/MGJRouter.h; sourceTree = "<group>"; };
+		C8F9A686B1A4913C6A62C505A284E186 /* YSTKtvDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSTKtvDefine.h; sourceTree = "<group>"; };
+		C91200524704FA8B3504BE1E852566E7 /* ResourceBundle-YSTKtvKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YSTKtvKit-Info.plist"; sourceTree = "<group>"; };
+		CB156A8E371D4305775618C1EC3D9625 /* YSTViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = YSTViewController.xib; path = YSTKtvKit/Assets/YSTViewController.xib; sourceTree = "<group>"; };
+		D54BA1C59D341E54E0DD4E540A5BBD02 /* BBAudioHardEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBAudioHardEncoder.m; sourceTree = "<group>"; };
+		D5DE805B148A660438A5BDAEB4F703EB /* Pods-YSTKtvKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YSTKtvKit_Example-dummy.m"; sourceTree = "<group>"; };
+		DAA47F2D7F707F4BE996AF8ADD7F87DA /* MGJRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGJRouter.framework; path = MGJRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB643951A6CCFDB7DD4A576AE25ED86D /* TMAudioDataQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TMAudioDataQueue.m; sourceTree = "<group>"; };
+		DC1F150A77CEB96C3785229A46F20F72 /* Pods-YSTKtvKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YSTKtvKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		E571AD329C3B53EF79553FFC5391DC41 /* YSTKtvRouterManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YSTKtvRouterManager.h; sourceTree = "<group>"; };
+		E815EE460C4A8B7A875A52A310B6FD12 /* MGJRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGJRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC3AD6B10954222164F8D291E82E9CC /* TMAVConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TMAVConfig.m; sourceTree = "<group>"; };
+		ED015BFE2111DD69C319AE06224597A2 /* MyRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MyRecord.h; sourceTree = "<group>"; };
+		EE248B10ADE65D7B7CB6D8502C7FA75F /* Pods-YSTKtvKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YSTKtvKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F080BF88488F519BEC1B3AE3CB53F2EA /* YSTKtvKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YSTKtvKit.framework; path = YSTKtvKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34833DD4C5B1F1CBD229A9803F93779 /* BBAudioHardEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBAudioHardEncoder.h; sourceTree = "<group>"; };
+		FFFE77ACED30AF2B2C13E9C242A11DB4 /* Pods-YSTKtvKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YSTKtvKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12D1E730A6C937CC102CFC86CA2305D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C735336306E55087DBC8711B50DAA086 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16037FFCA7B3ED014FC9AFD3B0ACDB14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB4C430E6ACE288F235FF93F39C3B60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A31D8E5A873ADF66AF582E04E0DF45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F70A6DD7B3E9A475547ABA5A2976A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C71A4FA6C940ACB1EFABB6962139F2 /* Foundation.framework in Frameworks */,
+				5AEAFB3F142CD78D2E07812FD73256C8 /* MGJRouter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84FF8A280A30252BDAD8FC45E8B69C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903D1DF5217254F8C52C90679BA2C0B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04837B9D0148B6C4C66B5A01AD3F2429 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				597B13C42FA6C3E6254F5BB7D230E8A5 /* Info.plist */,
+				8287DF644D5157D0E8397119176A8D33 /* MGJRouter.modulemap */,
+				A9EA6144519D9AD3A62FE866CB06684B /* MGJRouter.xcconfig */,
+				A947A914D502816907C15ABB4E3AD4E4 /* MGJRouter-dummy.m */,
+				52B6C666751EC7E591D415D6D006A94D /* MGJRouter-prefix.pch */,
+				3969C9B4903F87364829BB1F50713B1F /* MGJRouter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MGJRouter";
+			sourceTree = "<group>";
+		};
+		0D8471B7B34C3AF92090A408AD7FBC5E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C39E08BBF0286FC90DC28B4921B12096 /* Pods-YSTKtvKit_Example */,
+				6ECC54C709452C81B56A4EF3AE17E21F /* Pods-YSTKtvKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		12326FBD5A99B1F7DC3B0514B86A48D8 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				BEA2FCACE359DD43FA1E1D773153B54D /* Private */,
+				96E24ED6FF058AFE0D0A4F6461944756 /* Public */,
+			);
+			name = ..;
+			path = YSTKtvKit/Classes;
+			sourceTree = "<group>";
+		};
+		15AD80B541A2C334C1C22331D6817259 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				014FD3817B4CD2A968750944053890D8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		42950006E75076EA3378DA90DE6959E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E815EE460C4A8B7A875A52A310B6FD12 /* MGJRouter.framework */,
+				15AD80B541A2C334C1C22331D6817259 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46D291ED94A7CFF7A4047ED6D84A4E2C /* MP4ToMP3 */ = {
+			isa = PBXGroup;
+			children = (
+				4320D477B78CD1736935534EB61C718E /* AVMediaUtil.h */,
+				ADD6227917307442BEAFA3F07A46BD16 /* AVMediaUtil.m */,
+			);
+			name = MP4ToMP3;
+			path = MP4ToMP3;
+			sourceTree = "<group>";
+		};
+		47B162BD4BDAE1105FA89158E6C6991E /* AudioUnit */ = {
+			isa = PBXGroup;
+			children = (
+				2C9DF5B80DD02EFC7DCB5724B37221F0 /* YSTAudioUnit.h */,
+			);
+			name = AudioUnit;
+			path = AudioUnit;
+			sourceTree = "<group>";
+		};
+		6ECC54C709452C81B56A4EF3AE17E21F /* Pods-YSTKtvKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6E8B5AEA0099AE91AD338429E7A7CA95 /* Info.plist */,
+				24693DD7B10B40C86375F43B5502A279 /* Pods-YSTKtvKit_Tests.modulemap */,
+				EE248B10ADE65D7B7CB6D8502C7FA75F /* Pods-YSTKtvKit_Tests-acknowledgements.markdown */,
+				0AEC9AF816D02B997573A89453B66960 /* Pods-YSTKtvKit_Tests-acknowledgements.plist */,
+				582ACB0FDCAC5FEADD9C6A228F2000E9 /* Pods-YSTKtvKit_Tests-dummy.m */,
+				70D027F2751918D2EFAEFABA74F3F2CA /* Pods-YSTKtvKit_Tests-frameworks.sh */,
+				AB7BAD6B49CF466228562E48CE4C0CE6 /* Pods-YSTKtvKit_Tests-resources.sh */,
+				8F919F28F1A1120152700CE01DD8162A /* Pods-YSTKtvKit_Tests-umbrella.h */,
+				C18B0C82316147B8823DDCA5DEFE7060 /* Pods-YSTKtvKit_Tests.debug.xcconfig */,
+				8EA8EBBA9C71B0D17E9E1B552C88BAF0 /* Pods-YSTKtvKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-YSTKtvKit_Tests";
+			path = "Target Support Files/Pods-YSTKtvKit_Tests";
+			sourceTree = "<group>";
+		};
+		7A0E4102BC0D41B686225E5254DE7B29 /* YSTKtvKit */ = {
+			isa = PBXGroup;
+			children = (
+				12326FBD5A99B1F7DC3B0514B86A48D8 /* .. */,
+				D826D17D89823C19F5897DC0A77B3069 /* no-arc */,
+				7DA67FD2BB45C659E35AC2A4E77E49DA /* Resources */,
+				BAD1FC5284B5E9ED1E2F4FCF57B97DC3 /* Support Files */,
+			);
+			name = YSTKtvKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DA67FD2BB45C659E35AC2A4E77E49DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				125E5F51B53954899A6F2A1433A54EBC /* laonanhai.mp4 */,
+				CB156A8E371D4305775618C1EC3D9625 /* YSTViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				947FE1DAD804E606A942E2C66C1436CF /* Development Pods */,
+				42950006E75076EA3378DA90DE6959E6 /* Frameworks */,
+				B6493087EA70818C193B1D26BAF2A4D0 /* Pods */,
+				9A4EA1D2D4DD416D4DC31DF62E598EF3 /* Products */,
+				0D8471B7B34C3AF92090A408AD7FBC5E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80F85B551319BCB16A1827B4AAB5EBD0 /* MGJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				C7AD52F0C96F0CB9A51A315BE6E9DEF0 /* MGJRouter.h */,
+				26641E0A1922975091D2B3BF4F7EBD1B /* MGJRouter.m */,
+				04837B9D0148B6C4C66B5A01AD3F2429 /* Support Files */,
+			);
+			name = MGJRouter;
+			path = MGJRouter;
+			sourceTree = "<group>";
+		};
+		947FE1DAD804E606A942E2C66C1436CF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A0E4102BC0D41B686225E5254DE7B29 /* YSTKtvKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		95BF41FCEFD153F3070296C787B2EA34 /* PCMPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				9EAE5DF3693D402D294A4097EBE47D18 /* TMAudioDataQueue.h */,
+				DB643951A6CCFDB7DD4A576AE25ED86D /* TMAudioDataQueue.m */,
+				671D80C7DC3E4BA3D2B7C3F6286057AF /* TMAudioPCMPlayer.h */,
+				A04ECF139B7D3374D5B0D83B555BF680 /* TMAudioPCMPlayer.m */,
+				A73307E99EE4A937B0086792E484E731 /* TMAVConfig.h */,
+				EBC3AD6B10954222164F8D291E82E9CC /* TMAVConfig.m */,
+			);
+			name = PCMPlayer;
+			path = PCMPlayer;
+			sourceTree = "<group>";
+		};
+		96E24ED6FF058AFE0D0A4F6461944756 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				C081BB17518A9840C06DFB9F4EAC17FE /* MyRecordViewController.h */,
+				537BA7F5F480196F2BD3A685BEF87492 /* MyRecordViewController.m */,
+				E571AD329C3B53EF79553FFC5391DC41 /* YSTKtvRouterManager.h */,
+				473CB0EBD320023CC8C08BB6F05C3912 /* YSTKtvRouterManager.m */,
+				B0A4876EFAF05B95714FB4C33E0F4A9C /* YSTKtvViewController.h */,
+				101DE3C08FB3CC5B98B9B72107148442 /* YSTKtvViewController.m */,
+			);
+			name = Public;
+			path = Public;
+			sourceTree = "<group>";
+		};
+		9A4EA1D2D4DD416D4DC31DF62E598EF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAA47F2D7F707F4BE996AF8ADD7F87DA /* MGJRouter.framework */,
+				AB79E09C76704F1884C701224FE8558D /* Pods_YSTKtvKit_Example.framework */,
+				722D059508B9E74443C3BBEE2C3EE1F9 /* Pods_YSTKtvKit_Tests.framework */,
+				247FDA2584FD550CB9D146D59C83AE71 /* YSTKtvKit.bundle */,
+				F080BF88488F519BEC1B3AE3CB53F2EA /* YSTKtvKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3C49090919627E59AF8D703D267BD0D /* SingTool */ = {
+			isa = PBXGroup;
+			children = (
+				51160F06FEC7A921CF9C95BDA2B5046E /* SingTool.h */,
+				6E27A78F6A017B1AD11C4C0153FAE040 /* SingTool.m */,
+			);
+			name = SingTool;
+			path = SingTool;
+			sourceTree = "<group>";
+		};
+		B1AF0FD517F6A0F0A3A98C443FF76BD0 /* AACEncoder */ = {
+			isa = PBXGroup;
+			children = (
+				1A067D97990AA008B94D8B7941AE088D /* AACEncoder.h */,
+				B7C6F799D5615B76D0670B8626AF9EB3 /* AACEncoder.m */,
+				45083A712681E25E4B9AB47DD842C3E2 /* BBAudioConfig.h */,
+				2DFAC2419681C5801FC7ECE0516657EF /* BBAudioConfig.m */,
+				F34833DD4C5B1F1CBD229A9803F93779 /* BBAudioHardEncoder.h */,
+				D54BA1C59D341E54E0DD4E540A5BBD02 /* BBAudioHardEncoder.m */,
+			);
+			name = AACEncoder;
+			path = AACEncoder;
+			sourceTree = "<group>";
+		};
+		B6493087EA70818C193B1D26BAF2A4D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80F85B551319BCB16A1827B4AAB5EBD0 /* MGJRouter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BAD1FC5284B5E9ED1E2F4FCF57B97DC3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83B8B99DA4A9E4F07561404B7D96D99F /* Info.plist */,
+				C91200524704FA8B3504BE1E852566E7 /* ResourceBundle-YSTKtvKit-Info.plist */,
+				48269E60F9C94949F60D5A335B810083 /* YSTKtvKit.modulemap */,
+				74C3344B096CCBBE6102E5C1FFAD3900 /* YSTKtvKit.xcconfig */,
+				BFCC7B56E7A7F106F3844ED528C2F5A5 /* YSTKtvKit-dummy.m */,
+				306D74AD967083E9AC094DD6D9D588E4 /* YSTKtvKit-prefix.pch */,
+				57B5F9E684EB67AD3242C9D5709E5F89 /* YSTKtvKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YSTKtvKit";
+			sourceTree = "<group>";
+		};
+		BEA2FCACE359DD43FA1E1D773153B54D /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				B1AF0FD517F6A0F0A3A98C443FF76BD0 /* AACEncoder */,
+				47B162BD4BDAE1105FA89158E6C6991E /* AudioUnit */,
+				E76DF6269E5C19D9855AD5AEF32CE10C /* Common */,
+				E346B190B830000DCF05D0FDB704A4C1 /* Manager */,
+				46D291ED94A7CFF7A4047ED6D84A4E2C /* MP4ToMP3 */,
+				95BF41FCEFD153F3070296C787B2EA34 /* PCMPlayer */,
+				A3C49090919627E59AF8D703D267BD0D /* SingTool */,
+			);
+			name = Private;
+			path = Private;
+			sourceTree = "<group>";
+		};
+		C39E08BBF0286FC90DC28B4921B12096 /* Pods-YSTKtvKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				77154A1D79F9804215DA08CA22B80BB1 /* Info.plist */,
+				52D24EF0486BAA8C1D3FDB49DFACB7BC /* Pods-YSTKtvKit_Example.modulemap */,
+				82DB24EB9BEE94BE87668D800A14BC9A /* Pods-YSTKtvKit_Example-acknowledgements.markdown */,
+				93BC26CEADADE4AA5F9549E44F81B67D /* Pods-YSTKtvKit_Example-acknowledgements.plist */,
+				D5DE805B148A660438A5BDAEB4F703EB /* Pods-YSTKtvKit_Example-dummy.m */,
+				FFFE77ACED30AF2B2C13E9C242A11DB4 /* Pods-YSTKtvKit_Example-frameworks.sh */,
+				4D5F9C9D76948A36B9F9E95DFBDE48B0 /* Pods-YSTKtvKit_Example-resources.sh */,
+				DC1F150A77CEB96C3785229A46F20F72 /* Pods-YSTKtvKit_Example-umbrella.h */,
+				8BAE0C916759E8845ADB699D919F2745 /* Pods-YSTKtvKit_Example.debug.xcconfig */,
+				9AB0B51755B043024491A542A50F9BC5 /* Pods-YSTKtvKit_Example.release.xcconfig */,
+			);
+			name = "Pods-YSTKtvKit_Example";
+			path = "Target Support Files/Pods-YSTKtvKit_Example";
+			sourceTree = "<group>";
+		};
+		D826D17D89823C19F5897DC0A77B3069 /* no-arc */ = {
+			isa = PBXGroup;
+			children = (
+				81ECDFD779785C8D3B34EA892A1BFE31 /* YSTAudioUnit.m */,
+			);
+			name = "no-arc";
+			sourceTree = "<group>";
+		};
+		E346B190B830000DCF05D0FDB704A4C1 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				ED015BFE2111DD69C319AE06224597A2 /* MyRecord.h */,
+				523C0EB98D6C503063274C75B9DF1D7D /* MyRecord.m */,
+				3EBAE59D8455E21717E1B5B3352DEB97 /* TalkManager.h */,
+				6AD2FB37BF70090343FA867457AC101B /* TalkManager.m */,
+			);
+			name = Manager;
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		E76DF6269E5C19D9855AD5AEF32CE10C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4ADB5976EE3BC57655E3DA9861AEA6E5 /* UIWindow+PazLabs.h */,
+				BE1C5E7EB6E11736662055CA22187903 /* UIWindow+PazLabs.m */,
+				B9B7FA5EE2E96548153CFCA04F3F0F0F /* YSTKtv.pch */,
+				C8F9A686B1A4913C6A62C505A284E186 /* YSTKtvDefine.h */,
+			);
+			name = Common;
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6B963720371FF887E22527FC10FF1BA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1407576D303E40318DABDA70AD91075B /* Pods-YSTKtvKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875E5E100F77EA8A8A599BCFBCCDA70E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E096F43D5CC8F19E3D7E1311BAB3439 /* Pods-YSTKtvKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920FBC6200152D8310C414674D4C6DBB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFDF282D240899791F9EEACEAC136C5 /* AACEncoder.h in Headers */,
+				FE14DC9DDD25B51AE88B91FAC44A7EEE /* AVMediaUtil.h in Headers */,
+				1A72DF914BDB02E85214055E23C632D3 /* BBAudioConfig.h in Headers */,
+				9AB16DFC64C9D41DDB7C7B6F780FDEB7 /* BBAudioHardEncoder.h in Headers */,
+				8BA99C1E480D06532235F114FFC14119 /* MyRecord.h in Headers */,
+				FCD6EC0147BAB324230357F903E4D0D9 /* MyRecordViewController.h in Headers */,
+				A106714FF009EA9A5A1ED37B5345105F /* SingTool.h in Headers */,
+				1DC0F56838C893091977E94D2BBAC87B /* TalkManager.h in Headers */,
+				AB4B04AE820B4C19EEAB6CD34456553B /* TMAudioDataQueue.h in Headers */,
+				A735621EFCE45BD28E85C02359EAA97D /* TMAudioPCMPlayer.h in Headers */,
+				CCBB1CF550BA0BB3E8C34BD5E51FA103 /* TMAVConfig.h in Headers */,
+				BC6DC74B49B5F2035A98BAFA76A4E5FC /* UIWindow+PazLabs.h in Headers */,
+				490FE7E9AD8D7569E3ED46E43F9687F5 /* YSTAudioUnit.h in Headers */,
+				53D7F031E3270EC8C3AE80659B734CFF /* YSTKtvDefine.h in Headers */,
+				C0D0F5E3CFFA987AEA5395C9114F81D8 /* YSTKtvKit-umbrella.h in Headers */,
+				F8D7E53DC4F39BA40FB61390198EEDF9 /* YSTKtvRouterManager.h in Headers */,
+				DBAF32574124AC5B456B2D47A2AEDBD6 /* YSTKtvViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC31CC89DD84F5178B7070D4092DE90C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72EECA87FDC8704FCD8D58C8D35618BA /* MGJRouter-umbrella.h in Headers */,
+				A019CAF44C4B381280C5D21EE8DA18C3 /* MGJRouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		52C678597235B4E7DD2F2E1379E2CEA5 /* YSTKtvKit-YSTKtvKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E9BCBB9D0D9506CC3BF5E7481FC76FB /* Build configuration list for PBXNativeTarget "YSTKtvKit-YSTKtvKit" */;
+			buildPhases = (
+				D666FDF0A1AEE40E425AD9F0C4502491 /* Sources */,
+				84A31D8E5A873ADF66AF582E04E0DF45 /* Frameworks */,
+				A22616FBC4092231846FB4E734384F61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YSTKtvKit-YSTKtvKit";
+			productName = "YSTKtvKit-YSTKtvKit";
+			productReference = 247FDA2584FD550CB9D146D59C83AE71 /* YSTKtvKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8A578B1461229AA6ED3A10AF5DBC2F23 /* MGJRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01FB71DA3E9300DAAB7CFFF8F26F113E /* Build configuration list for PBXNativeTarget "MGJRouter" */;
+			buildPhases = (
+				E493B4A8172C6A7D4E4778F2373ECFCB /* Sources */,
+				F84FF8A280A30252BDAD8FC45E8B69C0 /* Frameworks */,
+				FC31CC89DD84F5178B7070D4092DE90C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGJRouter;
+			productName = MGJRouter;
+			productReference = DAA47F2D7F707F4BE996AF8ADD7F87DA /* MGJRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD1CBFD9F20FCBDE134A3F35E422FEA9 /* Pods-YSTKtvKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3007AA650B36965D04197185F5A8F519 /* Build configuration list for PBXNativeTarget "Pods-YSTKtvKit_Example" */;
+			buildPhases = (
+				2F62CC4D2F822FDB38C7736CB8E48EBC /* Sources */,
+				16037FFCA7B3ED014FC9AFD3B0ACDB14 /* Frameworks */,
+				875E5E100F77EA8A8A599BCFBCCDA70E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E102F11E2CBCFBB5C270291780396D2 /* PBXTargetDependency */,
+				CEB314249BC3434287EE6E7A3F9AC511 /* PBXTargetDependency */,
+			);
+			name = "Pods-YSTKtvKit_Example";
+			productName = "Pods-YSTKtvKit_Example";
+			productReference = AB79E09C76704F1884C701224FE8558D /* Pods_YSTKtvKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AEED062B0309456349BEF3AF9434A46E /* YSTKtvKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3805473175D865B35F7E7774B66DBB /* Build configuration list for PBXNativeTarget "YSTKtvKit" */;
+			buildPhases = (
+				BF44866FC2508B8F5E03BA2C419D2774 /* Sources */,
+				E6F70A6DD7B3E9A475547ABA5A2976A9 /* Frameworks */,
+				2804B7142BC1A1FFCD15894C0B78927E /* Resources */,
+				920FBC6200152D8310C414674D4C6DBB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FE491A5CDDCF43FF3ABE8956F03BD94 /* PBXTargetDependency */,
+				99413FBD04EEAD8600D9EDBCC8887CE0 /* PBXTargetDependency */,
+			);
+			name = YSTKtvKit;
+			productName = YSTKtvKit;
+			productReference = F080BF88488F519BEC1B3AE3CB53F2EA /* YSTKtvKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA8EA5D5BA3FD99D520CD89D532B3B3F /* Pods-YSTKtvKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B30CA32697E682B9A42CE7E2182C1FB4 /* Build configuration list for PBXNativeTarget "Pods-YSTKtvKit_Tests" */;
+			buildPhases = (
+				AA844947D69C09EE10ECBEF989E51EE0 /* Sources */,
+				12D1E730A6C937CC102CFC86CA2305D6 /* Frameworks */,
+				6B963720371FF887E22527FC10FF1BA1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YSTKtvKit_Tests";
+			productName = "Pods-YSTKtvKit_Tests";
+			productReference = 722D059508B9E74443C3BBEE2C3EE1F9 /* Pods_YSTKtvKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9A4EA1D2D4DD416D4DC31DF62E598EF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A578B1461229AA6ED3A10AF5DBC2F23 /* MGJRouter */,
+				AD1CBFD9F20FCBDE134A3F35E422FEA9 /* Pods-YSTKtvKit_Example */,
+				DA8EA5D5BA3FD99D520CD89D532B3B3F /* Pods-YSTKtvKit_Tests */,
+				AEED062B0309456349BEF3AF9434A46E /* YSTKtvKit */,
+				52C678597235B4E7DD2F2E1379E2CEA5 /* YSTKtvKit-YSTKtvKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2804B7142BC1A1FFCD15894C0B78927E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79790BAE94FB33BACF999EC7A8660ECC /* YSTKtvKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22616FBC4092231846FB4E734384F61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3A67DFD69644869C0F6A0C477AA3F9 /* laonanhai.mp4 in Resources */,
+				64C40263DD107605F6216426E9F9F462 /* YSTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F62CC4D2F822FDB38C7736CB8E48EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6786B65E7BD16249AFBB688251294FB /* Pods-YSTKtvKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA844947D69C09EE10ECBEF989E51EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F06525A304A39B3036BE6AE87C0B44 /* Pods-YSTKtvKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF44866FC2508B8F5E03BA2C419D2774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D34FC85AE1FF76658E76203B26E5FD /* AACEncoder.m in Sources */,
+				65351A34158FA86527024F6384971680 /* AVMediaUtil.m in Sources */,
+				3C6417B1C5A1B63ABF9DBEC0DCDBA253 /* BBAudioConfig.m in Sources */,
+				32F4BD5E455434088E69423B257582AF /* BBAudioHardEncoder.m in Sources */,
+				5E83409436D5A9ABE193F87CF080218F /* MyRecord.m in Sources */,
+				172B022EB29EBF4B6A650D8722069493 /* MyRecordViewController.m in Sources */,
+				40B212CC06F2C61011ED78CB6F0B6D6E /* SingTool.m in Sources */,
+				0DE78AC2930D8C80766E1A320CA24E3C /* TalkManager.m in Sources */,
+				751F0AD125EEAB3B6EA43637AE37AF3D /* TMAudioDataQueue.m in Sources */,
+				8F2BC4EBBA6E276E13ECBA35B29EF22E /* TMAudioPCMPlayer.m in Sources */,
+				59AD4D7779FEEF31B2BA8B3A06C2BDDF /* TMAVConfig.m in Sources */,
+				5E39CD14E7563FF88E68EFDB08FEB011 /* UIWindow+PazLabs.m in Sources */,
+				258F9A6A6D65A1ABE5CB27E5468D952E /* YSTAudioUnit.m in Sources */,
+				08968084CC6BDB4318E70D6DD5E432AA /* YSTKtv.pch in Sources */,
+				91901838712F5E2A88598AA67E92B112 /* YSTKtvKit-dummy.m in Sources */,
+				D15B458E9B75234F91222D327E64DED3 /* YSTKtvRouterManager.m in Sources */,
+				66E75DAD54D5A560F0AE635583D3449D /* YSTKtvViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D666FDF0A1AEE40E425AD9F0C4502491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E493B4A8172C6A7D4E4778F2373ECFCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA0319DB7D7339E4CF5EF9081B48C2D /* MGJRouter-dummy.m in Sources */,
+				8D904884D690B16012E78CFE35A63E7E /* MGJRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E102F11E2CBCFBB5C270291780396D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGJRouter;
+			target = 8A578B1461229AA6ED3A10AF5DBC2F23 /* MGJRouter */;
+			targetProxy = 1F355D01A71BBF1A252D3AD586AB47A2 /* PBXContainerItemProxy */;
+		};
+		99413FBD04EEAD8600D9EDBCC8887CE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "YSTKtvKit-YSTKtvKit";
+			target = 52C678597235B4E7DD2F2E1379E2CEA5 /* YSTKtvKit-YSTKtvKit */;
+			targetProxy = CBD0365A75764FFD81D47DB2F31BC8B1 /* PBXContainerItemProxy */;
+		};
+		9FE491A5CDDCF43FF3ABE8956F03BD94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGJRouter;
+			target = 8A578B1461229AA6ED3A10AF5DBC2F23 /* MGJRouter */;
+			targetProxy = 1B6E936702D9E60ED9725F52523C4E9A /* PBXContainerItemProxy */;
+		};
+		CEB314249BC3434287EE6E7A3F9AC511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YSTKtvKit;
+			target = AEED062B0309456349BEF3AF9434A46E /* YSTKtvKit */;
+			targetProxy = 499E04B386B790E219581D4023EDC190 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0256F2EA58AA6ABB7FCF1806A6A9F356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EA8EBBA9C71B0D17E9E1B552C88BAF0 /* Pods-YSTKtvKit_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YSTKtvKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YSTKtvKit_Tests/Pods-YSTKtvKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YSTKtvKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		16D8996F9B4C70E27804140AB7F55428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74C3344B096CCBBE6102E5C1FFAD3900 /* YSTKtvKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YSTKtvKit";
+				INFOPLIST_FILE = "Target Support Files/YSTKtvKit/ResourceBundle-YSTKtvKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YSTKtvKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		423BF740CAD66F6C3C9BD48B390B2655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9EA6144519D9AD3A62FE866CB06684B /* MGJRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGJRouter/MGJRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGJRouter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGJRouter/MGJRouter.modulemap";
+				PRODUCT_NAME = MGJRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		801297CA7221CAF510168B04C88E7416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BAE0C916759E8845ADB699D919F2745 /* Pods-YSTKtvKit_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YSTKtvKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YSTKtvKit_Example/Pods-YSTKtvKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YSTKtvKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D3F393A998F9E49F3DA4D180E75BC58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AB0B51755B043024491A542A50F9BC5 /* Pods-YSTKtvKit_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YSTKtvKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YSTKtvKit_Example/Pods-YSTKtvKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YSTKtvKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF3415E0504B8331112470FDCA9BBE85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C18B0C82316147B8823DDCA5DEFE7060 /* Pods-YSTKtvKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YSTKtvKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YSTKtvKit_Tests/Pods-YSTKtvKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YSTKtvKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D816ED974CB8E1A133189BA78B944422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74C3344B096CCBBE6102E5C1FFAD3900 /* YSTKtvKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YSTKtvKit/YSTKtvKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YSTKtvKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YSTKtvKit/YSTKtvKit.modulemap";
+				PRODUCT_NAME = YSTKtvKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4F67CB7E662D52D0A651644B82EAA7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74C3344B096CCBBE6102E5C1FFAD3900 /* YSTKtvKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YSTKtvKit";
+				INFOPLIST_FILE = "Target Support Files/YSTKtvKit/ResourceBundle-YSTKtvKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = YSTKtvKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E72C42DAEF99F18FB2E129CC80F2E639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9EA6144519D9AD3A62FE866CB06684B /* MGJRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGJRouter/MGJRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGJRouter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGJRouter/MGJRouter.modulemap";
+				PRODUCT_NAME = MGJRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE5C75F71B511A1EB5906F0D1FF65A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74C3344B096CCBBE6102E5C1FFAD3900 /* YSTKtvKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YSTKtvKit/YSTKtvKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YSTKtvKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YSTKtvKit/YSTKtvKit.modulemap";
+				PRODUCT_NAME = YSTKtvKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01FB71DA3E9300DAAB7CFFF8F26F113E /* Build configuration list for PBXNativeTarget "MGJRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423BF740CAD66F6C3C9BD48B390B2655 /* Debug */,
+				E72C42DAEF99F18FB2E129CC80F2E639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3007AA650B36965D04197185F5A8F519 /* Build configuration list for PBXNativeTarget "Pods-YSTKtvKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801297CA7221CAF510168B04C88E7416 /* Debug */,
+				8D3F393A998F9E49F3DA4D180E75BC58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E9BCBB9D0D9506CC3BF5E7481FC76FB /* Build configuration list for PBXNativeTarget "YSTKtvKit-YSTKtvKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D8996F9B4C70E27804140AB7F55428 /* Debug */,
+				E4F67CB7E662D52D0A651644B82EAA7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B30CA32697E682B9A42CE7E2182C1FB4 /* Build configuration list for PBXNativeTarget "Pods-YSTKtvKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3415E0504B8331112470FDCA9BBE85 /* Debug */,
+				0256F2EA58AA6ABB7FCF1806A6A9F356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3805473175D865B35F7E7774B66DBB /* Build configuration list for PBXNativeTarget "YSTKtvKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D816ED974CB8E1A133189BA78B944422 /* Debug */,
+				FE5C75F71B511A1EB5906F0D1FF65A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
