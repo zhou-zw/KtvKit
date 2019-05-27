@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'http://221.131.123.204:8181/ios-mobile/modules/YSTKtvKit.git'
+  s.homepage         = 'http://xxx.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'kuqiqi' => 'zhouzhenwei@ysten.com' }
-  s.source           = { :git => 'http://221.131.123.204:8181/ios-mobile/modules/YSTKtvKit.git', :tag => s.version.to_s }
+  s.author           = { 'kuqiqi' => 'x@x.com' }
+  s.source           = { :git => 'http://xxx.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
